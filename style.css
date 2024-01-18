@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    max-width: 1320px;
+    margin: 0 auto;
+}
+
+img{
+    width: 100%;
+}
+
+.banner{
+    margin-top: 50px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 16px;
+    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%),url("/resources/Banner-Image.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.banner h1{
+    color: #FFF;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 95px;
+}
+.banner h3{
+    color: #FFF;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 32px;
+    font-weight: 300;
+}
+
+.allCategories{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: center;
+    justify-content: center;
+    font-family: Inter;
+    max-width: 800px;
+    margin: 120px auto;
+}
+
+.allCategories h1{
+    color: #F00;
+    text-align: center;
+    font-size: 88px;
+    font-weight: 800;
+}
+
+.allCategories h4{
+    color: #F00;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 32px;
+}
+.allCategories h2{
+    color: #070211;
+    text-align: center;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.allCategories img{
+    height: 500px;
+}
+
+.midnight-banner{
+    display: flex;
+    justify-content: space-between ;
+    align-items: center;
+    margin: 120px auto;
+    height: 600px;
+    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%),url("/resources/Vectorrr.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.midnight-banner-content{
+    display: flex;
+    flex-direction: column; 
+    gap: 20px;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 100px 0 0 126px;
+}
+
+.midnight-img{
+    padding-right: 115px;
+}
+
+.midnight-banner-content h1{
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 88px;
+    letter-spacing: 7.04px;
+}
+
+.midnight-banner-content p{
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+
+}
+
+.btn-join{
+    padding: 24px 0 0 32px;
+    text-decoration: none;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.margin-join-btn{
+  margin-top: 20px;
+}
+
+.btn-join:hover{
+    color: goldenrod;
+}
