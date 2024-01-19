@@ -24,6 +24,7 @@ img{
     background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%),url("/resources/Banner-Image.png");
     background-size: cover;
     background-repeat: no-repeat;
+    border-radius: 16px;
 }
 
 .banner h1{
@@ -88,6 +89,7 @@ img{
     background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%),url("/resources/Vectorrr.png");
     background-repeat: no-repeat;
     background-size: cover;
+    border-radius: 16px;
 }
 
 .midnight-banner-content{
@@ -138,4 +140,126 @@ img{
 
 .btn-join:hover{
     color: goldenrod;
+}
+
+.place{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: center;
+    justify-content: center;
+    color: #070211;
+    text-align: center;
+    font-family: Inter;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 56px;
+    text-transform: capitalize;
+    margin: 120px auto;
+    height: 500px;
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 16px;
+}
+
+.place span{
+    color: #F00;
+}
+
+.btn-primary{
+    padding: 16px 32px;
+    text-decoration: none;
+    color: #FFF;
+    background-color: #F00;
+    border: none;
+    color: #FFF;
+
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.place button{
+    border-radius: 5px;
+    margin-top: 24px;
+}
+
+.fireworks{
+    margin: 120px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+
+}
+
+.coming-soon,.sticker{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: flex-start;
+    justify-content: center;
+    max-width: 350px;
+}
+
+.coming-soon h4{
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+
+}
+
+.coming-soon h2{
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+}
+
+.fireworks p{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.sticker h2{
+    color: #F00;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.sticker img{
+    width: 140px;
+    height: 140px;
+    flex-shrink: 0;
+}
+
+.picture{
+    align-items: center;
+    justify-content: center;
+    width: 460px;
+    height: 460px;
+    background-color: #F00;
+    box-sizing: border-box;
+    border-radius: 50%;
+    
+}
+
+.picture img{
+    width: 360px;
+    height: 360px;
+    border: 30px solid #FFF;
+    border-radius: 50%;
+    margin: 20px 20px 0 20px;
 }
