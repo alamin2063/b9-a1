@@ -6,6 +6,7 @@
 .container{
     max-width: 1320px;
     margin: 0 auto;
+
 }
 
 img{
@@ -208,11 +209,16 @@ img{
     max-width: 350px;
 }
 
+.sticker{
+    margin-left: 30px;
+}
+
 .coming-soon h4{
     color: #F00;
     font-family: Inter;
     font-size: 24px;
     font-weight: 500;
+    text-transform: uppercase;
 
 }
 
@@ -262,4 +268,83 @@ img{
     border: 30px solid #FFF;
     border-radius: 50%;
     margin: 20px 20px 0 20px;
+}
+
+.holiday-sale{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.what-functional{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+}
+
+.what-functional h4{
+    color: #070211;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    text-transform: uppercase;
+    
+}
+.what-functional h1{
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+   
+}
+.what-functional span{
+    color: #F00;
+}
+.what-functional p{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.discount-pics{
+    position: relative;
+    margin-top: 50px;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    
+}
+
+#rectangle{
+    position: absolute;
+    bottom: -200px;
+    width: 1320px;
+    height: 230px;
+}
+
+
+
+.happy-girl{
+    position: relative;
+    right: -295px;
+    height: 430px;
+    width: 430px;
+    border-radius: 16px 16px 0px 0px;
+}
+#discount{
+    width: 230px;
+    position: absolute;
+    border: 5px solid #fff;
+}
+
+
+#box{
+    width: 300px;
+    
 }
