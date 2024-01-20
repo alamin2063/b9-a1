@@ -22,7 +22,7 @@ img{
     align-items: center;
     justify-content: center;
     border-radius: 16px;
-    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%),url("/resources/Banner-Image.png");
+    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%),url("resources/Banner-Image.png");
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 16px;
@@ -87,7 +87,7 @@ img{
     align-items: center;
     margin: 120px auto;
     height: 600px;
-    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%),url("/resources/Vectorrr.png");
+    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%),url("resources/Vectorrr.png");
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 16px;
