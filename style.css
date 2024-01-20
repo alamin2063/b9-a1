@@ -375,7 +375,7 @@ img{
 }
 
 .portfolio{
-    margin: 300px auto;
+    margin: 320px auto 120px;
     display: flex;
     flex-direction: column;
     
